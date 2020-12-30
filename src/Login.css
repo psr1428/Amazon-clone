@@ -1,0 +1,38 @@
+.login{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 200px;
+	object-fit: contain;
+}
+
+.login-logo{
+	max-height: 50px;
+}
+.login-container{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+}
+.login-container >input{
+	width:25rem;
+	height: 20px;
+	align-items: center;
+}
+.login-container>small{
+	font-weight: 700;
+}
+
+.login-container > button{
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  font-weight: 800;
+   width:20rem;
+}
+.login-container .create-acc{
+	color:black;
+	background: lightgrey;
+}
